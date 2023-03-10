@@ -48,6 +48,9 @@ class Calculator {
     exponentiation(number) {
         return number * number;
     }
+    sqrt(number) {
+        return Math.sqrt(number);
+    }
 };
 
 module.exports = Calculator;
